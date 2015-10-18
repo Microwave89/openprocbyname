@@ -127,12 +127,11 @@ NTSTATUS openProcByName(PHANDLE pProcess, PUNICODE_STRING pProcName, BOOLEAN use
 }
 
 void mymain(void) {
-	NTSTATUS status = STATUS_GENERIC_NOT_MAPPED;
+	NTSTATUS status;
 	HANDLE hProcess = INVALID_HANDLE_VALUE;
 	UNICODE_STRING uProcName;
 
-	NtRaiseHardError(status+23, 0, 0, NULL, 0, (PULONG)&status);
-	RtlInitUnicodeString(&uProcName, L"svchost.exe");
+	RtlInitUnicodeString(&uProcName, L"notepad.exe");
 
 	status = openProcByName(&hProcess, &uProcName, TRUE);
 	NtRaiseHardError(status, 0, 0, NULL, 0, (PULONG)&status);

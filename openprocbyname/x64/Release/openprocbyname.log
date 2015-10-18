@@ -1,4 +1,4 @@
-﻿Build started 19.10.2015 00:06:33.
+﻿Build started 19.10.2015 01:48:48.
      1>Project "C:\Users\MicrowaveStd\Documents\Visual Studio 2015\Projects\um\openprocbyname\openprocbyname\openprocbyname.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /nologo /W4 /WX- /O1 /Ob0 /Oi /Os /Oy /GL /D _UNICODE /D UNICODE /D _WIN64 /D _AMD64_ /D AMD64 /D _UNICODE /D UNICODE /Gm- /GS- /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /Zc:inline /GR- /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gz /TC /Zl /errorReport:prompt main.c
@@ -12,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.01
+Time Elapsed 00:00:02.18
